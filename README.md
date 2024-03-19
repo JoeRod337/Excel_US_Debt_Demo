@@ -124,9 +124,9 @@ To do so I created a Pivot Table using the data and aggregated out the max debt 
 
 Then I pulled the data out and used the =forecasters function to forecast the next few years.
 
-![alt text](Forcast1.0.png)
+![alt text](Forecast1.0.png)
 
-![alt text](Forcast1.1.png)
+![alt text](Forecast1.1.png)
 
 Once the data has been created, we can apply this into a chart to show the growing rate of the debt.
 
