@@ -89,3 +89,45 @@ I continued the process for each column of data and then created columns with th
 
 ![alt text](Data_Cleaning1.11.png)
 
+
+The image below shows a chart with the information we gathered.  You can see that there are two times there was a sudden increase in debt in the US. 
+
+![alt text](Chart1.0.png)
+
+
+Next let us say we want to find the highest and lowest increase in total debt in our dataset.  We only need the Total Public Debt column and the information we have.  I have moved the information to a new sheet with only the information I need.  This is not necessarily needed but easier to work with.  I still have the original data if I need to go back and get anything. 
+
+![alt text](Data_Cleaning1.12.png)
+
+
+To find the average highest and lowest increase in total debt by month I want to create a pivot table and aggregate the average of the data by month as shown in the image below.
+
+![alt text](Data_Cleaning1.13.png)
+
+
+Which results in a table as below.
+
+![alt text](P_Table1.0.png)
+
+
+Now I am ready to make a chart that can relay the information in a clearer manner that just this table.
+
+![alt text](Chart1.1.png)
+
+
+The last thing I would like to demonstrate in Excel is how to forecast with this data to see if we can get a prediction with the data we have for the following months. To achieve this, we can use the data we filtered out for the first chart we did.   We want the total for each month and that is listed on the last day of each month.
+
+To do so I created a Pivot Table using the data and aggregated out the max debt held by the public by year shown in the image below.
+
+![alt text](P_Table1.1.png)
+
+
+Then I pulled the data out and used the =forecasters function to forecast the next few years.
+
+![alt text](Forcast1.0.png)
+
+![alt text](Forcast1.1.png)
+
+Once the data has been created, we can apply this into a chart to show the growing rate of the debt.
+
+![alt text](Chart1.2.png)
